@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:height="150dp"
+        android:textAlignment="textEnd"
+        android:textAllCaps="true"
+        android:textSize="36sp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="44dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:rowCount="6">
+
+        <Button
+            android:id="@+id/Siete"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="7"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Ocho"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="8"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Nueve"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="9"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Dividir"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="/"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Cuatro"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="4"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Cinco"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="5"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Seis"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="6"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Multiplicar"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="X"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Uno"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="1"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Dos"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="2"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Tres"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="3"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Restar"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="-"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Cero"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Igual"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="="
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/Sumar"
+            android:layout_margin="1.5dip"
+            android:minWidth="88dip"
+            android:minHeight="100dip"
+            android:text="+"
+            android:textSize="30sp" />
+
+    </GridLayout>
+</RelativeLayout>
