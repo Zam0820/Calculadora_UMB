@@ -38,7 +38,7 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="7"
+            android:text="@string/_7"
             android:textSize="30sp" />
 
         <Button
@@ -46,7 +46,7 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="8"
+            android:text="@string/_8"
             android:textSize="30sp" />
 
         <Button
@@ -54,23 +54,26 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="9"
+            android:text="@string/_9"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/Dividir"
             android:layout_margin="1.5dip"
+            android:background="#353333"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="/"
-            android:textSize="30sp" />
+            android:text="@string/div"
+            android:textColor="#FF0303"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Cuatro"
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="4"
+            android:text="@string/_4"
             android:textSize="30sp" />
 
         <Button
@@ -78,7 +81,7 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="5"
+            android:text="@string/_5"
             android:textSize="30sp" />
 
         <Button
@@ -86,23 +89,26 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="6"
+            android:text="@string/_6"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/Multiplicar"
             android:layout_margin="1.5dip"
+            android:background="#353333"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="X"
-            android:textSize="30sp" />
+            android:text="@string/x"
+            android:textColor="#FF0303"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Uno"
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="1"
+            android:text="@string/_1"
             android:textSize="30sp" />
 
         <Button
@@ -110,7 +116,7 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="2"
+            android:text="@string/_2"
             android:textSize="30sp" />
 
         <Button
@@ -118,16 +124,19 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="3"
+            android:text="@string/_3"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/Restar"
             android:layout_margin="1.5dip"
+            android:background="#353333"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="-"
-            android:textSize="30sp" />
+            android:text="@string/_"
+            android:textColor="#FF0303"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Cero"
@@ -136,24 +145,30 @@
             android:layout_margin="1.5dip"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="0"
+            android:text="@string/_0"
             android:textSize="30sp" />
 
         <Button
             android:id="@+id/Igual"
             android:layout_margin="1.5dip"
+            android:background="#353333"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="="
-            android:textSize="30sp" />
+            android:text="@string/igu"
+            android:textColor="#FF0303"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Sumar"
             android:layout_margin="1.5dip"
+            android:background="#353333"
             android:minWidth="88dip"
             android:minHeight="100dip"
-            android:text="+"
-            android:textSize="30sp" />
+            android:text="@string/sum"
+            android:textColor="#FF0303"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
     </GridLayout>
 </RelativeLayout>
